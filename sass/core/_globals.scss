@@ -1,0 +1,9 @@
+@use "../variables/variables";
+
+html {
+  font-family: variables.$main-font-family;
+}
+
+button {
+  cursor: pointer;
+}

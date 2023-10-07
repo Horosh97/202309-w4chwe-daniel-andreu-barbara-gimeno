@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build-style": "sass sass/styles.scss styles/styles.css",
+    "build-style:dev": "sass sass/styles.scss styles/styles.css -w"
   },
   "keywords": [],
   "author": "",
