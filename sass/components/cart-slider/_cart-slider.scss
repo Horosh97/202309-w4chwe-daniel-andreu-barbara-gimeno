@@ -16,6 +16,7 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
+  gap: 17px;
 
   &__heading {
     color: #fff;
@@ -25,7 +26,10 @@
     font-weight: 500;
     line-height: normal;
   }
-
+  &__subheading {
+    display: flex;
+    gap: 16px;
+  }
   &__icon {
     width: 24px;
     height: 24px;
