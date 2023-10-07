@@ -1,0 +1,48 @@
+.subheader {
+  &__heading {
+    color: #172432;
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__line {
+    width: 365px;
+    height: 3px;
+    background: #ff7757;
+  }
+  &__text {
+    color: #767e86;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+@media screen and (max-width: 780px) {
+  .subheader {
+    &__heading {
+      color: #172432;
+      font-family: Playfair Display;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    &__line {
+      width: 227px;
+      height: 3px;
+      background: #ff7757;
+    }
+    &__text {
+      color: #767e86;
+      font-family: Rubik;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}
