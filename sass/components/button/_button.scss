@@ -1,0 +1,20 @@
+@use "../../variables/variables";
+
+.button {
+  font-family: variables.$paragraph-font-family;
+  border-radius: variables.$border-button;
+
+  &__dark {
+    background-color: variables.$button-dark-color;
+  }
+
+  &__orange {
+    border-radius: 12px;
+    background-color: variables.$main-color;
+  }
+  &__details {
+    background-color: variables.$main-color;
+    color: variables.$light-color;
+    border-color: variables.$main-color;
+  }
+}
