@@ -14,28 +14,61 @@
 
 <body>
   <section class="main-container">
-    <div class="subheader">
-      <h2 class="subheader__heading">Popular Destinations</h2>
-      <hr class="subheader__line" />
-      <p class="subheader__text">Most popular destinations around the world, from historical places to natural wonders.
-      </p>
+    <div class="subheader-container">
+      <div class="subheader">
+        <h2 class="subheader__heading">Popular Destinations</h2>
+        <hr class="subheader__line" />
+        <p class="subheader__text">Most popular destinations around the world, from historical places to natural
+          wonders.
+        </p>
+      </div>
+      <div class="arrow-buttons arrow-buttons--up">
+        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="55" viewBox="0 0 60 55" fill="none">
+          <g clip-path="url(#clip0_65_4212)">
+            <path
+              d="M60 43.6364V10.9091C60 4.88417 55.1158 0 49.0909 0L10.9091 0C4.88416 0 0 4.88417 0 10.9091V43.6364C0 49.6613 4.88416 54.5455 10.9091 54.5455H49.0909C55.1158 54.5455 60 49.6613 60 43.6364Z"
+              fill="#55281D" />
+            <path d="M34.5455 18.1818L25.4545 27.2727L34.5455 36.3636" stroke="white" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </g>
+          <defs>
+            <clipPath id="clip0_65_4212">
+              <rect width="60" height="54.5455" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="55" viewBox="0 0 60 55" fill="none">
+          <g clip-path="url(#clip0_65_4215)">
+            <path
+              d="M0 10.909L0 43.6363C0 49.6612 4.88417 54.5454 10.9091 54.5454H49.0909C55.1158 54.5454 60 49.6612 60 43.6363V10.909C60 4.88412 55.1158 -4.57764e-05 49.0909 -4.57764e-05H10.9091C4.88417 -4.57764e-05 0 4.88412 0 10.909Z"
+              fill="#FF7757" />
+            <path d="M25.4545 36.3636L34.5454 27.2727L25.4545 18.1818" stroke="white" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" />
+          </g>
+          <defs>
+            <clipPath id="clip0_65_4215">
+              <rect width="60" height="54.5455" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
     </div>
     <ul class="destinations">
-      <li class="destination cart-berlin">
+      <li class="destination cart__berlin">
         <h3 class="destination__heading">Monument of Berlin</h3>
         <div class="destination__subheading">
           <img class="destination__icon" src="./image/berlin-river.webp" alt="berlin river picture">
           <span class="destination__text">Berlin, Germany</span>
         </div>
       </li>
-      <li class="destination cart-london">
+      <li class="destination cart__london">
         <h3 class="destination__heading">Millennium Bridge</h3>
         <div class="destination__subheading">
           <img class="destination__icon" src="./image/city-of-london.webp" alt="city of london picture">
           <span class="destination__text">London, United Kingdom</span>
         </div>
       </li>
-      <li class="destination cart-italy">
+      <li class="destination cart__italy">
         <h3 class="destination__heading">Rialto Bridge</h3>
         <div class="destination__subheading">
           <img class="destination__icon" src="./image/venecia-bridge.webp" alt="venetian's brige picture">
@@ -43,7 +76,7 @@
         </div>
       </li>
     </ul>
-    <div>
+    <div class="arrow-buttons arrow-buttons--down">
       <svg xmlns="http://www.w3.org/2000/svg" width="60" height="55" viewBox="0 0 60 55" fill="none">
         <g clip-path="url(#clip0_65_4212)">
           <path

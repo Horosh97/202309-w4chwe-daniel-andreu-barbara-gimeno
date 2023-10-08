@@ -1,5 +1,12 @@
 @use "../../variables/variables";
 
+.subheader-container {
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .subheader {
   &__heading {
     color: #172432;
