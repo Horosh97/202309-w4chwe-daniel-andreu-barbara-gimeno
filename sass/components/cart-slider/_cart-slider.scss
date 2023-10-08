@@ -10,9 +10,10 @@
 
 .destination {
   display: flex;
-  width: 497px;
-  height: 661px;
+  width: 30vw;
+  height: 40vw;
   padding: 40px 24px;
+  border-radius: 26px;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
@@ -26,10 +27,12 @@
     font-weight: 500;
     line-height: normal;
   }
+
   &__subheading {
     display: flex;
     gap: 16px;
   }
+
   &__icon {
     width: 24px;
     height: 24px;
@@ -44,12 +47,16 @@
     line-height: normal;
   }
 }
-.cart-berlin {
-  background-image: url(/image/berlin-river.jpg);
-}
-.cart-london {
-  background-image: url(/image/city-of-london.jpg);
-}
-.cart-italy {
-  background-image: url(/image/venecia-bridge.jpg);
+.cart {
+  &__berlin {
+    background-image: url(/image/berlin-river.jpg);
+  }
+
+  &__london {
+    background-image: url(/image/city-of-london.jpg);
+  }
+
+  &__italy {
+    background-image: url(/image/venecia-bridge.jpg);
+  }
 }
