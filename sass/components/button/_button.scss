@@ -18,3 +18,21 @@
     border-color: variables.$main-color;
   }
 }
+
+.arrow-buttons {
+  display: flex;
+  gap: 40px;
+  &--down {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .arrow-buttons {
+    display: flex;
+    gap: 40px;
+    &--up {
+      display: none;
+    }
+  }
+}
