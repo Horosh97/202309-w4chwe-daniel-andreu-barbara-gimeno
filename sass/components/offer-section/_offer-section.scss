@@ -1,0 +1,32 @@
+@use "../../variables/variables";
+
+.offer-container {
+  display: flex;
+}
+
+.offer-section {
+  &__line {
+    width: 227px;
+    height: 3px;
+    background: #ff7757;
+  }
+
+  &__block {
+    background: #fff8f1;
+  }
+
+  &__text {
+    color: #767e86;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__image {
+    border-radius: 12px;
+  }
+  &__icon {
+    display: flex;
+  }
+}
