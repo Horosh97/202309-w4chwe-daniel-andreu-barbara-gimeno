@@ -48,6 +48,10 @@
   }
 }
 .cart {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
   &__berlin {
     background-image: url(/image/berlin-river.webp);
   }
